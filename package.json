@@ -1,0 +1,22 @@
+{
+  "name": "front-end-lesson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/base.scss css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moskin/my-front-end-lesson.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moskin/my-front-end-lesson/issues"
+  },
+  "homepage": "https://github.com/moskin/my-front-end-lesson#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}

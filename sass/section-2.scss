@@ -1,0 +1,70 @@
+.section-2 {
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/nat-4.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 80vh;
+  transform: skewY(-5deg);
+  margin-top: -100px;
+
+  & > * {
+    transform: skewY(5deg);
+  }
+
+  .box {
+    &:not(:last-child) {
+      margin-right: 20px;
+  }
+    width: calc(100%/4 - 15px);
+    // - розташування елементів в боксі
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    margin-top: 17rem;
+    text-align: center;
+    // padding-top: 4rem;
+  }
+
+  [class^='icon']{ /*span іншими словами*/
+    display: inline-block;
+    margin-top: 4rem;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.8));
+    transition: all 0.2s;
+    font-size: 6rem;
+  }
+
+  // .icon-equalizer2 {
+  //   font-size: 6rem;
+  //
+  //   -webkit-background-clip: text;
+  //   color: transparent;
+  //   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.8));
+  //   transition: all 0.2s;
+  // }
+  //
+  // .icon-github {
+  //   font-size: 6rem;
+  //   -webkit-background-clip: text;
+  //   color: transparent;
+  //   background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.8));
+  //   transition: all 0.2s;
+  // }
+
+  .box-title {
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+
+  .box-text {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    width: 20rem;
+    margin-left: 3.5rem;
+    line-height: 2.5rem;
+  }
+
+
+}
