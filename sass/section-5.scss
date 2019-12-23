@@ -1,0 +1,88 @@
+.section-5 {
+  background-image: linear-gradient(to right, rgb(126, 213, 111), rgb(85, 197, 122));
+  padding: 10rem 0;
+
+  .booking {
+    background-image: linear-gradient(100deg, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.8) 50%, transparent 50%), url("../img/nat-10.jpg");
+    height: 70vh;
+    background-size: cover;
+    padding-left: 5.5rem;
+
+    .input {
+      margin-bottom: 4rem;
+      color: white;
+      border: none;
+      border-radius: 2px;
+
+      .input-form {
+        width: 40rem;
+        height: 5rem;
+        padding: 10px 20px;
+        font-size: 1.4rem;
+        border-radius: 3px;
+        border: none;
+      }
+    }
+
+    .round-buttons {
+      padding-bottom: 5rem;
+
+      .radio {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+        margin: 10px 0 0 7px;
+      }
+
+      .radio + label {
+        position: relative;
+        padding: 0px 6rem 0px 4rem;
+        cursor: pointer;
+      }
+
+      .radio + label:before {
+        content: '';
+        position: absolute;
+        top: -7px;
+        left: -4px;
+        width: 22px;
+        height: 22px;
+        border: 5px solid #9FD468;
+        border-radius: 50%;
+      }
+
+      .radio + label:after {
+        content: '';
+        position: absolute;
+        top: 3px;
+        left: 6px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background: #9FD468;
+        opacity: 0;
+        transition: 0.2s;
+      }
+
+      .radio:checked + label:after {
+        opacity: 1;
+      }
+
+      .radio:focus + label:before {
+        // box-shadow: 0 0 0 3px rgba(255,255,0,.7);
+      }
+    }
+
+    .green-button {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: white;
+      // background-color:
+      background-image: linear-gradient(to right, rgb(126, 213, 111), rgb(85, 197, 122));
+      width: 5rem;
+      height: 3rem;
+      padding: 1.7rem 4rem;
+      border-radius: 40px;
+    }
+  }
+}

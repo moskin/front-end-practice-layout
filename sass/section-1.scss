@@ -12,37 +12,14 @@
   margin-top: -10%;
   padding-bottom: 30rem;
 
-  h2 {
-    margin: 20rem 0 5rem;
-    display: inline-block;
-    font-size: 3.5rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.8));
-    transition: all 0.2s;
-  }
-
-  h2:hover {
-    transform: skewY(2deg) skewX(20deg);
+  .skewed-title {
+    margin-top: 20rem;
   }
 
   .container-flex > div {
     width: 50%;
     /*ширина div-a*/
     padding: 0 2rem;
-
-    h4 {
-      margin-bottom: 2rem;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    p {
-      margin-bottom: 2rem;
-      line-height: 2.5rem;
-    }
 
     .btn-more:visited {
       @extend %button;
